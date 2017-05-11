@@ -50,6 +50,9 @@ group :test do
   gem "rspec-query-limit", "~> 0.1.2"
   gem "timecop", "~> 0.7.3"
   gem "rspec-sidekiq", "~> 2.2.0"
+  gem "cucumber-rails", "~> 1.4.5", require: false     
+  gem "selenium-webdriver", "~> 2.35.1"     
+  gem "chromedriver-helper", "~> 1.0.0"
 end
 
 group :development, :test do
